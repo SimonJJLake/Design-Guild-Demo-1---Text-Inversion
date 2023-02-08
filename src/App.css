@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+body {
+  margin: 0;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.App {
+  min-height: 500vh;
+  min-width: 100vh;
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  align-items: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50vh;
+  mix-blend-mode: difference;
+  color: white;
+}
+
+.subTitle {
+  background-color: #bf223c;
+  padding: 1rem 1.5rem;
+  width: fit-content;
+  rotate: 3deg;
+}
+.mainTitle {
+  font-family: "Staatliches", cursive;
+  font-size: 8rem;
+  margin: 1rem;
+}
+.imageContainer {
+  position: absolute;
+  top: 100vh;
+}
+.image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+}
+
+.box1 {
+  position: absolute;
+  background-color: white;
+  height: 30vh;
+  width: 50vw;
+  top: 230vh;
+  left: 10vw;
+}
+.box2 {
+  position: absolute;
+  background-color: white;
+  height: 30vh;
+  width: 50vw;
+  top: 270vh;
+  right: 10vw;
+}
